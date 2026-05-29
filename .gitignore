@@ -1,0 +1,27 @@
+# Local/private config
+config.json
+
+# Spec and planning files
+.kiro/
+init.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+dist/
+
+# Editor/system
+.DS_Store
+Thumbs.db
